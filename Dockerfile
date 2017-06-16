@@ -17,12 +17,12 @@
 FROM centos
 LABEL vendor="Outscale SAS"
 LABEL com.outscale.butterfly.description="Butterfly API for testing purposes"
-LABEL com.outscale.butterfly.version="0.5"
-LABEL com.outscale.butterfly.release-date="2017-04-21"
+LABEL com.outscale.butterfly.version="0.6"
+LABEL com.outscale.butterfly.release-date="2017-06-16"
 
 RUN yum update -y && yum install -y libpcap && yum clean all
 
-ADD https://github.com/outscale/butterfly/releases/download/v0.5/butterfly_0.5_x86_64.rpm butterfly.rpm
+ADD https://github.com/outscale/butterfly/releases/download/release%2F0.6.0/butterfly_0.6_x86_64.rpm butterfly.rpm
 RUN rpm -i butterfly.rpm && rm -f butterfly.rpm
 RUN butterflyd -V
 
