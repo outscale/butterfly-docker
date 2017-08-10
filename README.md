@@ -10,3 +10,9 @@ docker run -p 9999:9999 -it --rm outscale/butterfly
 ```
 
 You can now use butterfly cli to test Butterfly's API.
+
+## Build a new docker image
+
+```
+docker build -t outscale/butterfly:latest .
+```
