@@ -16,3 +16,7 @@ You can now use butterfly cli to test Butterfly's API.
 ```
 docker build -t outscale/butterfly:latest .
 ```
+## Contributions
+
+No contribution is accepted at the moment on the project
+
