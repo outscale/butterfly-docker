@@ -1,4 +1,5 @@
 # Butterfly docker image
+[![Project Archived](https://docs.outscale.com/fr/userguide/_images/Project-Archived-red.svg)](https://docs.outscale.com/en/userguide/Open-Source-Projects.html)
 
 This image is made for testing [Butterfly](https://github.com/outscale/butterfly) API, not for real packet switching.
 
